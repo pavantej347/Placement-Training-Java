@@ -22,7 +22,6 @@ public class tree {
         System.out.print(root.data + " ");
         preorder(root.left);
         preorder(root.right);
-
     }
 
     static void postorder(Node root) {
